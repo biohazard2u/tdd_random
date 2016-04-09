@@ -1,0 +1,5 @@
+package com.mz.order.bo.exception;
+
+public class BOException extends Exception {
+
+}

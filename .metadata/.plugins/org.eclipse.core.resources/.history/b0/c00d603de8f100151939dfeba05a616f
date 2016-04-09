@@ -1,0 +1,8 @@
+package com.mz.other.test;
+
+public class InvalidEmployrrType extends Exception {
+
+	public InvalidEmployrrType(int type) {
+	}
+
+}

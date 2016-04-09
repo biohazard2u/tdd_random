@@ -1,0 +1,8 @@
+package com.mz.order.bo;
+
+public interface OrderBO {
+
+	boolean placeOrder(Order order) throws BOException;
+	boolean cancelOrder(int id);
+	boolean deleteOrder(int id);
+}

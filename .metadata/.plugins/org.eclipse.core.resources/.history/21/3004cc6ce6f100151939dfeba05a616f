@@ -1,0 +1,6 @@
+package com.mz.other.test;
+
+public interface EmployeeFactory {
+	//Employee makeEmployee(EmployeeRecord r) throw InvalidEmployrrType;
+	Employee makeEmployee(String name) throw Exception;
+}

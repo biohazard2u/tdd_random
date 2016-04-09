@@ -1,0 +1,5 @@
+package com.mz.order.dao;
+
+public interface OrderDAO {
+
+}

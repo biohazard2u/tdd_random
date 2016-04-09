@@ -1,0 +1,17 @@
+package com.mz.order.bo;
+
+import org.junit.Test;
+
+import com.mz.order.dao.OrderDAO;
+
+public class OrderBOImplTest {
+
+	private OrderDAO dao;
+
+	@Test
+	public void placeOrder_ShouldCreateAnOrder() {
+		OrderBOImpl bo = new OrderBOImpl();
+		bo.setDao(dao);
+	}
+
+}

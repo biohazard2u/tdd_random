@@ -1,0 +1,21 @@
+package com.mz.other.test;
+
+public class EmployeeFactoryImpl implements EmployeeFactory {
+
+	@Override
+	public Employee makeEmployee(EmployeeRecord r) throws InvalidEmployrrType {
+		
+		switch (r.type) {
+		case COMMISSIONED:
+			return new CommissionEmployee(r);
+		case HOURLY:
+			return new HourlyEmployee(r);
+		case SALARIED:
+			return SalariedEmployee(r);
+		default:
+			throw new InvalidEmployrrType(r.type);
+		}
+		return null;
+	}
+
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="OrderBOImplTest" project="OrderProcessingService" tests="8" started="8" failures="0" errors="0" ignored="0">
+  <testsuite name="com.mz.order.bo.OrderBOImplTest" time="0.071">
+    <testcase name="placeOrder_ShouldNotCreateAnOrder" classname="com.mz.order.bo.OrderBOImplTest" time="0.06"/>
+    <testcase name="placeOrder_ShouldCreateAnOrder" classname="com.mz.order.bo.OrderBOImplTest" time="0.002"/>
+    <testcase name="deleteOrder_DeletesTheOrder" classname="com.mz.order.bo.OrderBOImplTest" time="0.001"/>
+    <testcase name="cancelOrder_ShouldNotCancelTheOrder" classname="com.mz.order.bo.OrderBOImplTest" time="0.002"/>
+    <testcase name="cancelOrder_ShouldThrowBOExceptionOnRead" classname="com.mz.order.bo.OrderBOImplTest" time="0.003"/>
+    <testcase name="placeOrder_ShouldThrowBoException" classname="com.mz.order.bo.OrderBOImplTest" time="0.001"/>
+    <testcase name="cancelOrder_ShouldCancelTheOrder" classname="com.mz.order.bo.OrderBOImplTest" time="0.001"/>
+    <testcase name="cancelOrder_ShouldThrowBOExceptionOnUpdate" classname="com.mz.order.bo.OrderBOImplTest" time="0.001"/>
+  </testsuite>
+</testrun>

@@ -1,0 +1,34 @@
+package com.mz.order.bo;
+
+import java.sql.SQLException;
+
+import org.junit.Before;
+import org.junit.Test;
+import org.mockito.Mock;
+import org.mockito.MockitoAnnotations;
+
+import static org.mockito.Mockito.*;
+
+import com.mz.order.dao.OrderDAO;
+import com.mz.order.dto.Order;
+
+public class OrderBOImplTest {
+
+	@Mock
+	private OrderDAO dao;
+	
+	@Before
+	public void setUp(){
+		MockitoAnnotations.initMocks(this);
+	}
+
+	@Test
+	public void placeOrder_ShouldCreateAnOrder() throws SQLException {
+		OrderBOImpl bo = new OrderBOImpl();
+		bo.setDao(dao);
+		
+		Order order = new Order();
+		when(dao.create(order)).thenReturn(new Integer(1));
+	}
+
+}

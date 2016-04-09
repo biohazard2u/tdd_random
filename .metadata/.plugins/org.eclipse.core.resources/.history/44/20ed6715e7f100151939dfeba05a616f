@@ -1,0 +1,11 @@
+package com.mz.other.test;
+
+public class EmployeeFactoryImpl implements EmployeeFactory {
+
+	@Override
+	public Employee makeEmployee(String name) throws Exception {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

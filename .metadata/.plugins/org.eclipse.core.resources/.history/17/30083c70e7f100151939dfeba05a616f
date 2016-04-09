@@ -1,0 +1,19 @@
+package com.mz.other.test;
+
+public class EmployeeFactoryImpl implements EmployeeFactory {
+
+	@Override
+	public Employee makeEmployee(EmployeeRecord r) throws InvalidEmployrrType {
+		
+		switch (r.type) {
+		case value:
+			
+			break;
+
+		default:
+			break;
+		}
+		return null;
+	}
+
+}

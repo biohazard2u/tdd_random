@@ -1,0 +1,20 @@
+
+public class PalindromeChecker {
+
+	public boolean isAPalindrome(String string) {
+		
+		String reverseString = getReverseString(string);
+		
+		if(string.equalsIgnoreCase(reverseString))
+			return true;
+		
+		return false;
+	}
+
+	private String getReverseString(String string) {
+		StringBuilder reverseStringBuilder = new StringBuilder(string);
+		reverseStringBuilder.reverse();
+		return reverseStringBuilder.toString();
+	}
+
+}

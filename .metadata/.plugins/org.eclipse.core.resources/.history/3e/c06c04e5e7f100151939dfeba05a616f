@@ -1,0 +1,11 @@
+package com.mz.other.test;
+
+public class CommissionEmployee extends Employee {
+
+	@Override
+	public boolean isPayDay() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

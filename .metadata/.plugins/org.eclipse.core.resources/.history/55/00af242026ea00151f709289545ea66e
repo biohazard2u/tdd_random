@@ -1,0 +1,23 @@
+import static org.junit.Assert.*;
+import junit.framework.TestCase;
+
+import org.junit.Test;
+
+
+public class PalindromeCheckerTest extends TestCase {
+
+//	@Test
+//	public void test() {
+//		fail("Not yet implemented");
+//	}
+
+	public void testCreatePalindromeTestObject() throws Exception {
+		PalindromeChecker testObject = new PalindromeChecker();
+		assertNotNull(testObject);
+	}
+	
+	public void testSimplePalindromeMethod_YesPalindrome() throws Exception {
+		PalindromeChecker testObject = new PalindromeChecker();
+		assertTrue(testObject.isAPalindrome("Mom"));
+	}
+}

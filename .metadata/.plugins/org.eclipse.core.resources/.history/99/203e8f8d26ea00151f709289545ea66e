@@ -1,0 +1,9 @@
+
+public class PalindromeChecker {
+
+	public boolean isAPalindrome(String string) {
+		// TODO Auto-generated method stub
+		return true;
+	}
+
+}

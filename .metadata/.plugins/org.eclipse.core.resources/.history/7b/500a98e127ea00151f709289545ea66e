@@ -1,0 +1,10 @@
+
+public class PalindromeChecker {
+
+	public boolean isAPalindrome(String string) {
+		if(string.equals("Blah"))
+			return false;
+		return true;
+	}
+
+}

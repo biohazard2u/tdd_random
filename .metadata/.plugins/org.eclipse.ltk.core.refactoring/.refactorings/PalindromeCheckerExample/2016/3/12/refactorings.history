@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract method &apos;private StringBuilder getReverseString(String string)&apos; from &apos;PalindromeChecker.isAPalindrome()&apos; to &apos;PalindromeChecker&apos;&#x0A;- Original project: &apos;PalindromeCheckerExample&apos;&#x0A;- Method name: &apos;getReverseString&apos;&#x0A;- Destination type: &apos;PalindromeChecker&apos;&#x0A;- Declared visibility: &apos;private&apos;" comments="false" description="Extract method &apos;getReverseString&apos;" destination="0" exceptions="false" flags="786434" id="org.eclipse.jdt.ui.extract.method" input="/src&lt;{PalindromeChecker.java" name="getReverseString" replace="false" selection="87 97" stamp="1457989433483" version="1.0" visibility="2"/>
+</session>
